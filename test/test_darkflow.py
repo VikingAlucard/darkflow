@@ -71,8 +71,8 @@ metaPath = os.path.join(buildPath, "built_graph", os.path.splitext(os.path.basen
 
 generalConfigPath = os.path.join(buildPath, "cfg")
 
-download_file(yolo_small_Download, yolo_small_WeightPath) #Check if we need to download (and if so download) the yolo-small weights (YOLOv1)
-download_file(yolo_Download, yolo_WeightPath) #Check if we need to download (and if so download) the yolo weights (YOLOv2)
+#download_file(yolo_small_Download, yolo_small_WeightPath) #Check if we need to download (and if so download) the yolo-small weights (YOLOv1)
+#download_file(yolo_Download, yolo_WeightPath) #Check if we need to download (and if so download) the yolo weights (YOLOv2)
 download_file(tiny_yolo_voc_Download, tiny_yolo_voc_WeightPath) #Check if we need to download (and if so download) the tiny-yolo-voc weights (YOLOv2)
 
 def executeCLI(commandString):

@@ -1,4 +1,5 @@
-aeroplane
-bicycle
-bird
-boat
+BMP2
+L33
+Leopard2A6
+M1126
+T72B
